@@ -6,33 +6,33 @@
 
 @layer base {
   :root {
-    --background: 220 26% 14%;
+    --background: 140 40% 8%;
     --foreground: 0 0% 100%;
 
-    --card: 220 20% 18%;
+    --card: 140 30% 12%;
     --card-foreground: 0 0% 100%;
 
-    --popover: 220 20% 18%;
+    --popover: 140 30% 12%;
     --popover-foreground: 0 0% 100%;
 
-    --primary: 158 64% 52%;
+    --primary: 142 76% 36%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 217 91% 60%;
+    --secondary: 142 70% 45%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 20% 25%;
+    --muted: 140 25% 18%;
     --muted-foreground: 0 0% 70%;
 
-    --accent: 262 83% 58%;
+    --accent: 150 80% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 20% 25%;
-    --input: 220 20% 25%;
-    --ring: 158 64% 52%;
+    --border: 140 25% 20%;
+    --input: 140 25% 18%;
+    --ring: 142 76% 36%;
 
     --radius: 0.75rem;
   }
@@ -60,11 +60,11 @@
 
 @layer utilities {
   .gradient-bg {
-    background: linear-gradient(135deg, #10b981 0%, #3b82f6 50%, #8b5cf6 100%);
+    background: linear-gradient(135deg, #10b981 0%, #059669 50%, #047857 100%);
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #10b981 0%, #3b82f6 50%, #8b5cf6 100%);
+    background: linear-gradient(135deg, #10b981 0%, #34d399 50%, #6ee7b7 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
